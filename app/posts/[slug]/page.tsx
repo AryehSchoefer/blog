@@ -51,7 +51,7 @@ export default async function PostPage({ params }: PageProps) {
   return (
     <article>
       <header>
-        <h1 className="font-heading text-title-massive font-bold mb-6">
+        <h1 className="font-heading text-title-massive font-bold mb-6 max-md:text-[2.5rem]">
           {post.title}
         </h1>
         <span className="font-body text-[0.85rem] text-muted border-t border-border-dark pt-4 mb-12 block">

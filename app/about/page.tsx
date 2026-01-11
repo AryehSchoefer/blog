@@ -74,7 +74,10 @@ export default function AboutPage() {
               Email
             </a>{" "}
             or{" "}
-            <a href="https://www.linkedin.com/in/aryeh-schoefer/" className="prose-link">
+            <a
+              href="https://www.linkedin.com/in/aryeh-schoefer/"
+              className="prose-link"
+            >
               LinkedIn
             </a>
             . I read every message, though I can't promise a timely response.
