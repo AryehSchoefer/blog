@@ -19,7 +19,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: "Aryeh's Blog",
-  description: "A minimalist developer blog",
+  description: "dev blog",
 };
 
 export default function RootLayout({
@@ -28,7 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${libreBaskerville.variable} ${ibmPlexMono.variable}`}>
+    <html
+      lang="en"
+      className={`${libreBaskerville.variable} ${ibmPlexMono.variable}`}
+    >
       <body className="font-body antialiased">
         <div className="max-w-container mx-auto px-container-x py-container-y max-md:px-4 max-md:py-8">
           <header className="flex justify-between items-end mb-header-mb border-b-header border-border-dark pb-4 max-md:flex-col max-md:items-start max-md:gap-4">
@@ -45,7 +48,7 @@ export default function RootLayout({
                 About Me
               </Link>
               <a
-                href="https://github.com"
+                href="https://github.com/AryehSchoefer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-base font-semibold no-underline border-b-2 border-transparent text-foreground hover:border-foreground"
@@ -53,7 +56,7 @@ export default function RootLayout({
                 GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/aryeh-schoefer/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-base font-semibold no-underline border-b-2 border-transparent text-foreground hover:border-foreground"
@@ -61,7 +64,7 @@ export default function RootLayout({
                 LinkedIn
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:aryeh.shmuel@googlemail.com"
                 className="font-body text-base font-semibold no-underline border-b-2 border-transparent text-foreground hover:border-foreground"
               >
                 Email

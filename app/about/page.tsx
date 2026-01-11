@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Typographic Titan",
-  description: "About Aryeh - A software engineer who cares deeply about simplicity.",
+  title: "About | Aryeh",
+  description: "About Aryeh.",
 };
 
 export default function AboutPage() {
@@ -35,10 +35,10 @@ export default function AboutPage() {
             Every "simple" feature needs a constellation of microservices.
           </p>
           <p className="mb-6">
-            This blog is my small protest. It's built with Next.js and SQLite
-            because sometimes the best architecture is the simplest one. No
-            external databases to manage. No complex deployment pipelines. Just
-            code and content.
+            This blog is my small protest. It's built with Next.js, SQLite, and
+            a bit of hardcoded HTML because sometimes the best architecture is
+            the simplest one. No external databases to manage. No complex
+            deployment pipelines. Just code and content.
           </p>
         </div>
 
@@ -49,17 +49,17 @@ export default function AboutPage() {
           <ul className="list-square pl-6 mb-6">
             <li className="mb-2">
               <strong className="font-semibold">Languages:</strong> TypeScript,
-              Go, Rust
+              Go, Python, C
             </li>
             <li className="mb-2">
-              <strong className="font-semibold">Editor:</strong> Zed / Neovim
+              <strong className="font-semibold">Editor:</strong> Neovim
             </li>
             <li className="mb-2">
               <strong className="font-semibold">Terminal:</strong> Ghostty +
               tmux
             </li>
             <li className="mb-2">
-              <strong className="font-semibold">OS:</strong> macOS (reluctantly)
+              <strong className="font-semibold">OS:</strong> macOS
             </li>
           </ul>
         </div>
@@ -70,18 +70,12 @@ export default function AboutPage() {
         <div className="font-body text-base text-foreground leading-relaxed">
           <p className="mb-6">
             The best way to reach me is through{" "}
-            <a
-              href="https://github.com"
-              className="prose-link"
-            >
-              GitHub
+            <a href="mailto:aryeh.shmuel@googlemail.com" className="prose-link">
+              Email
             </a>{" "}
             or{" "}
-            <a
-              href="https://twitter.com"
-              className="prose-link"
-            >
-              Twitter
+            <a href="https://www.linkedin.com/in/aryeh-schoefer/" className="prose-link">
+              LinkedIn
             </a>
             . I read every message, though I can't promise a timely response.
           </p>

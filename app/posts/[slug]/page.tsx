@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${post.title} | Typographic Titan`,
+    title: `${post.title} | Aryeh`,
     description: post.description,
   };
 }
@@ -89,7 +89,10 @@ export default async function PostPage({ params }: PageProps) {
                 );
               }
               return (
-                <code className="font-body" style={{ fontVariantLigatures: "none" }}>
+                <code
+                  className="font-body"
+                  style={{ fontVariantLigatures: "none" }}
+                >
                   {children}
                 </code>
               );
@@ -100,10 +103,7 @@ export default async function PostPage({ params }: PageProps) {
               </pre>
             ),
             a: ({ href, children }) => (
-              <a
-                href={href}
-                className="prose-link"
-              >
+              <a href={href} className="prose-link">
                 {children}
               </a>
             ),
