@@ -16,19 +16,21 @@ export default async function HomePage() {
         <article
           key={post.id}
           className={`mb-14 pb-14 ${
-            index < allPosts.length - 1 ? "border-b border-dashed border-border" : ""
+            index < allPosts.length - 1
+              ? "border-b border-dashed border-border"
+              : ""
           }`}
         >
-          <header>
-            <h1 className="font-heading text-title-list font-bold leading-tight mb-2">
+          <header className="flex justify-between border-b border-border-dark mb-10 pb-5">
+            <h1 className="font-heading text-title-list font-bold leading-tight mb-2 tracking-tight max-md:text-[1.8rem]">
               <Link
                 href={`/posts/${post.slug}`}
-                className="no-underline text-foreground hover:opacity-80 transition-opacity"
+                className="no-underline text-foreground hover:underline hover:decoration-2 hover:underline-offset-4"
               >
                 {post.title}
               </Link>
             </h1>
-            <span className="font-body text-[0.85rem] text-muted border-t border-border-dark pt-2 mb-6 inline-block">
+            <span className="font-body text-[0.85rem] text-muted border-t border-border-dark pt-2 ml-1 inline-block w-[100px]">
               {post.published_at}
             </span>
           </header>

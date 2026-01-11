@@ -34,7 +34,7 @@ const config: Config = {
         "header-mb": "5rem",
       },
       maxWidth: {
-        container: "720px",
+        container: "750px",
       },
       letterSpacing: {
         title: "0.05em",
